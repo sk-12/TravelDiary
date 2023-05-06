@@ -1,0 +1,43 @@
+.imageContainer {
+  margin: 10x;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.image {
+  /* margin: 10px; */
+  height: 310px;
+  width: 310px;
+  border-radius: 10px;
+}
+.imageContainer:hover {
+  opacity: 0.2;
+}
+
+.descPara {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  background-color: antiquewhite;
+  /* opacity: 1; */
+  z-index: -1;
+}
+
+.card {
+  margin: 20px;
+  border-radius: 10px;
+  position: relative;
+  color: #9e7676;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 460px;
+  width: 340px;
+}
+.card:hover {
+  opacity: 0.2;
+}

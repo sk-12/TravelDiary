@@ -1,0 +1,36 @@
+button {
+  height: 40px;
+  width: 150px;
+  border-width: 2px;
+  border-radius: 4px;
+}
+.warning {
+  border-color: black;
+  background-color: yellow;
+  color: black;
+}
+
+.secondary {
+  border-radius: 50px;
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+
+.primary {
+  border-color: black;
+  background-color: rgb(243, 243, 243);
+  color: black;
+}
+
+.danger {
+  border-color: rgb(140, 6, 6);
+  background-color: rgb(230, 211, 211);
+  color: rgb(140, 6, 6);
+}
+
+.success {
+  border-color: rgb(23, 42, 6);
+  background-color: rgb(165, 197, 133);
+  color: rgb(23, 42, 6);
+}

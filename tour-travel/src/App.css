@@ -1,0 +1,28 @@
+.App {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#componentOne {
+  background-image: url("./assets/images/background.jpg");
+  height: 900px;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#componentOneIntro {
+  height: 200px;
+  font-size: 38px;
+  width: 20%;
+  align-content: center;
+  text-align: center;
+  color: #4f200d;
+}

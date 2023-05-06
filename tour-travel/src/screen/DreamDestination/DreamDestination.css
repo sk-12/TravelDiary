@@ -1,0 +1,18 @@
+#dreamDest {
+  background-color: #4f200d;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#dreamDest > h1,
+h2 {
+  color: antiquewhite;
+}
+.dreamData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

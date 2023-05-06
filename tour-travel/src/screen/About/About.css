@@ -1,0 +1,46 @@
+#myImage {
+  height: 600px;
+  width: 450px;
+  border-radius: 10px;
+}
+#desc {
+  /* p div */
+  height: 600px;
+  width: 450px;
+  padding: 10px 80px;
+  background-color: antiquewhite;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f200d;
+  font-size: 35px;
+}
+.about > h2 {
+  color: #4f200d;
+}
+/* #headingOne {
+  margin: 1px;
+  padding: 0;
+}
+#headingTwo {
+  margin: 1px;
+  padding: 0;
+} */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 95%;
+  /* padding: 50px 30px; */
+}
+
+#imageDesc {
+  display: flex;
+  flex-direction: row;
+}
+#descImg {
+  /* img div */
+}
